@@ -14,6 +14,9 @@
 		65187B141E4192E50085F89C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65187B121E4192E50085F89C /* LaunchScreen.storyboard */; };
 		65187B1F1E4192E50085F89C /* SelfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65187B1E1E4192E50085F89C /* SelfigramTests.swift */; };
 		65187B2A1E4192E50085F89C /* SelfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65187B291E4192E50085F89C /* SelfigramUITests.swift */; };
+		65187B401E419EDB0085F89C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65187B3F1E419EDB0085F89C /* ProfileViewController.swift */; };
+		65187B421E41A5D90085F89C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65187B411E41A5D90085F89C /* User.swift */; };
+		65187B441E41A6D70085F89C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65187B431E41A6D70085F89C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		65187B251E4192E50085F89C /* SelfigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65187B291E4192E50085F89C /* SelfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfigramUITests.swift; sourceTree = "<group>"; };
 		65187B2B1E4192E50085F89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65187B3F1E419EDB0085F89C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		65187B411E41A5D90085F89C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65187B431E41A6D70085F89C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		65187B081E4192E50085F89C /* Selfigram */ = {
 			isa = PBXGroup;
 			children = (
+				65187B3F1E419EDB0085F89C /* ProfileViewController.swift */,
 				65187B091E4192E50085F89C /* AppDelegate.swift */,
 				65187B0B1E4192E50085F89C /* ViewController.swift */,
 				65187B0D1E4192E50085F89C /* Main.storyboard */,
+				65187B411E41A5D90085F89C /* User.swift */,
+				65187B431E41A6D70085F89C /* Post.swift */,
 				65187B101E4192E50085F89C /* Assets.xcassets */,
 				65187B121E4192E50085F89C /* LaunchScreen.storyboard */,
 				65187B151E4192E50085F89C /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65187B421E41A5D90085F89C /* User.swift in Sources */,
+				65187B401E419EDB0085F89C /* ProfileViewController.swift in Sources */,
 				65187B0C1E4192E50085F89C /* ViewController.swift in Sources */,
 				65187B0A1E4192E50085F89C /* AppDelegate.swift in Sources */,
+				65187B441E41A6D70085F89C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
